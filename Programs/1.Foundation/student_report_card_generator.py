@@ -40,7 +40,7 @@ p = cgpa * 100
 print("+" + "-"*100 + "+")
 print(f"|{"Annual Report Card":^100}|")
 print("+" + "-"*100 + "+")
-print(f"|{"Student Details :":^100}|")
+print(f"|{"Student Details :":^100}|\n|{" "*100}|")
 
 left1 = f"Student's Name : {name}"
 right1 = f"Father's Name : {fname}"
@@ -48,3 +48,11 @@ left2 = f"Class : {std}{sec}"
 right2 = f"Roll-No : {rno}"
 print(f"| {" "*18}{left1:<40}{right1:<40} |")
 print(f"| {" "*18}{left2:<40}{right2:<40} |")
+print("+" + "-"*100 + "+")
+
+print("+" + "-"*100 + "+")
+head = f"|{"S.No":^6}|{"Subject":^25}|{"Grade":^15}|{"Marks":^15}|"
+print(f"|{head:^100}|")
+#for i in range(1, 6):
+    #print(f"|{i:^5}{}|")
+print("+" + "-"*100 + "+")
