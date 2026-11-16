@@ -12,11 +12,14 @@ fname = input("Enter your father's name : ")
 std, sec = input("Enter your class and section (class section): ").split()
 std = int(std)
 rno = int(input("Enter your roll number : "))
+
+
+# print(name, type(name), fname, type(fname), std, type(std), sec, type(sec), rno, type(rno) )
+
+subn = ["English", "Hindi", "Maths", "Science", "SST"]
+for x in range(5):
+    print(subn[x])
 '''
-
-print(name, type(name), fname, type(fname), std, type(std), sec, type(sec), rno, type(rno) )
-
-
 fullm = float(input("Enter full marks of one subject : "))
 sub1 = input("\nEnter the name of first subject : ")
 m1 = float(input(f"Enter marks for {sub1} : "))
@@ -33,6 +36,7 @@ m5 = float(input(f"Enter marks for {sub5} : "))
 tm = m1 + m2 + m3 + m4 + m5
 cgpa = tm / 500
 p = cgpa * 100
+
 '''
 
 # Build a clean template for the report card.
