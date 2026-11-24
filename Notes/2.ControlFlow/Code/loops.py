@@ -1,5 +1,5 @@
 #2.2. for Loop
-'''
+
 #1. range() basics
 for i in range(5):
     print(i, end=" ")
@@ -68,7 +68,7 @@ for _ in range(n):
     print(a, end=" ")
     a, b = b, a+b
 print()
-'''
+
 #10. Even numbers, sum and manual max of a list
 nums = [12, 4, 5, 6, 3, 2]
 evens = []
